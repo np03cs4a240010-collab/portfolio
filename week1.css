@@ -11,7 +11,6 @@ h1{
 	margin: 1;
 	display: flex;
 	gap: 5px;
-
 }
 .menu li {
 	flex-shrink: 0;
@@ -36,4 +35,33 @@ footer{
 }
 h2{
 	text-decoration: underline;
+}
+.photo{
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	border: solid blue;
+}
+button{
+	text-decoration: max-width;
+	width: 200px;
+	cursor: pointer;
+	height: 40px;
+	border: solid black;
+	border-radius: 50%;
+}
+button:hover{
+	background: blue;
+}
+.detail{
+	display: flex;
+	align-items: center;
+	margin: 40px o;
+	max-width: 800px;
+	padding: 0 20px;
+	gap: 30px;
+	flex-shrink: 0;
+}
+.number{
+	width: 50%;
 }
